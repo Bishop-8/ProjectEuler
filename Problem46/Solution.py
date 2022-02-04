@@ -8,6 +8,8 @@
 #As always, I am frustrated by the sieve of erastothenes, but life goes on. Also, it seems I am a c++ programmer at heart. When I finished the logic of everything
 #I could not help but organize the code into declared functions, even though everything really runs once.
 
+#Last but not least, the solution is 5777. Interestingly, the only other counterexample that is currenttly known is 5993. Odd that they are so close together
+
 #In-line comments and time/storage complexity optimization to come later!
 
 max = 6000
