@@ -1,6 +1,10 @@
 #This one was rough. I started out on lack of sleep, which led to some elevated frustration when I couldn't get the problem solved quickly
 #I eventually got it figured out, but I have a lot of storage complexity to trim down. I went a little overboard with the brute force because
-#I was ready to just be done with it. Still, It was a helpful problem in getting used to some python list methods
+#I was ready to just be done with it. Originally, I was going to use the primes and my composites and verify the answer by checking the square
+#But after a little math I realized that there are generally less perfect squares than there are primes. I didn't want to add the O(n) time
+#from checking to see if the result was in my list of prime values, but then I realized I could turn it into a boolean array, use the indices 
+#Of the array for the value (as a sort of hashmap), and then the scanning time of O(n) turns into an access time of O(1). ALl this to say, primes are more unwieldy than
+#squares. No worries though, primes are still my favorite numbers.
 
 #Things I learned: It's more complicated than one thinks to validate a perfect square, the way python iterates through lists is weird, but still really nice, and
 #it will always pay off to write some lines of code to help you diagnose your program. Visibility is important!
